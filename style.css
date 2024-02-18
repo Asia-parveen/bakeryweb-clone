@@ -1,0 +1,701 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+header {
+    width: auto;
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.logo {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-top: 100px;
+    margin-left: 80px;
+
+}
+
+li a {
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+a:hover {
+    border-bottom: 2px solid springgreen;
+    transition: 0.5;
+
+}
+
+.icon {
+    margin-top: 90px;
+    margin-left: 80px;
+    padding: 10px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon i {
+    padding: 12px;
+    font-size: 20px;
+
+}
+
+.btn {
+    margin-top: 100px;
+    margin-left: 70px;
+
+
+}
+
+.btn button {
+    width: 150px;
+    font-size: 16px;
+    padding: 12px;
+    margin-left: 50px;
+    border-radius: 30px;
+    background-color: aquamarine;
+    border: none;
+}
+
+.btn button:hover {
+    background-color: rgb(30, 91, 71);
+    color: white;
+}
+
+/* ....................background........................... */
+.container {
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: 100vh;
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/pstri5.jpg);
+
+
+}
+
+
+.back-vido {
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+}
+
+
+
+
+.content h1 {
+    margin-top: 130px;
+    margin-left: 140px;
+    font-size: 70px;
+    color: white;
+    font-weight: 800;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content h3 {
+    margin-top: 70px;
+    margin-left: 140px;
+    font-size: 25px;
+    color: white;
+    font-weight: 400px;
+    line-height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn1 {
+    margin-top: 90px;
+    margin-left: 140px;
+    padding: 15px 37px;
+    font-size: 20px;
+    background-color: lightseagreen;
+    border-radius: 40px;
+    border: none;
+    font-weight: 600px;
+    color: aliceblue;
+  
+}
+
+.btn1:hover {
+    background-color: rgb(10, 97, 93);
+}
+
+/* ...............section two.............. */
+#sec-two {
+    width: 100%;
+    height: 1000px;
+
+    background-image: linear-gradient(rgba(50, 50, 50, 0.7), rgba(50, 50, 50, 50.8)), url(images/pstri7.jpg);
+
+    
+
+}
+
+.sec2 {
+    font-size: 55px;
+
+    font-weight: 600px;
+    margin-left: 80px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row1 {
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    gap: 15px 180px;
+}
+
+#col {
+    width: 17%;
+    height: 190px;
+    border: 1px solid black;
+    /* margin-left: 10px; */
+    margin-top: 100px;
+    border-radius: 20px;
+    border: none;
+
+    box-shadow: 1px 1px 2px 3px white;
+}
+
+.col1 img {
+    width: 100%;
+    height: 190px;
+    border-radius: 20px;
+    font-weight: 600px;
+    object-fit: cover;
+
+}
+
+.col1 h2 {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#three {
+    background-color: skyblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 65%;
+    min-height: 500px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 1px 1px 2px 2px wheat;
+
+}
+
+
+
+.cont i {
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 300px;
+    position: absolute;
+    top: 10px;
+    color: white;
+
+}
+
+.cont h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    margin-left: 120px;
+    font-weight: 600;
+   
+}
+
+.cont p {
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 60px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.cont button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-left: 240px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 30px;
+    color: white;
+    transition: 0.5s 0.1s;
+
+
+
+}
+
+.cont button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* .......................section four.................. */
+#four {
+    width: 100%;
+    height: 100vh;
+}
+
+.creation {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+}
+
+.creation i {
+    font-size: 70px;
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: red;
+    opacity: 0.5;
+
+
+}
+
+.creation h1 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 150px;
+    margin-left: 80px;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+}
+
+.row2 {
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    align-items: center;
+}
+
+#coll {
+    width: 280px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -2px -3px 3px black, 2px 3px 6px gray;
+}
+
+#coll img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+/* ....................section five................ */
+#five {
+    width: 100%;
+    height: 800px;
+    margin-top: 170px;
+    background-image: linear-gradient(rgba(100, 50, 50, 0.7), rgba(20, 80, 100, 0.7));
+    text-align: center;
+    /* background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(images/pstri4.jpg) ; */
+}
+
+.detail i {
+    font-size: 70px;
+    font-size: 70px;
+    margin-top: 50px;
+    margin-left: 0px;
+    color: red;
+    opacity: 0.5;
+}
+
+.detail h1 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.detail h2 {
+    font-size: 25px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 60px;
+    margin-left: 10px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.detail p {
+    font-size: 22px;
+  
+    line-height: 30px;
+    word-spacing: 2px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.5;
+}
+
+.detail img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+
+.detail h3 {
+    margin-top: 15px;
+    opacity: 0.7;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ......................section six............... */
+#six {
+    width: 100%;
+    height: 100vh;
+    background-color: palevioletred;
+}
+
+#six h1 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-weight: 800px;
+
+
+}
+
+.row3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#colll {
+    width: 35%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 150px;
+    top: 40px;
+
+    font-weight: 400;
+
+}
+
+
+
+.col3 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.col3 p {
+    font-size: 20px;
+    margin-left: 30px;
+    text-align: justify;
+    color: white;
+}
+
+.col3 h3 {
+    font-size: 20px;
+    color: white;
+    margin-top: 100px;
+    margin-right: 80px;
+    position: absolute;
+    left: 150px;
+    letter-spacing: 2px;
+}
+
+/* ..................section seven.............. */
+#seven {
+    width: 100%;
+    position: relative;
+}
+
+#seven h1 {
+    font-size: 45px;
+    margin-left: 200px;
+    padding-top: 80px;
+    color: black;
+    font-weight: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.small-box {
+    width: 270px;
+    height: 250px;
+    position: absolute;
+    top: 250px;
+    right: 200px;
+    background-color: lightgrey;
+    /* border: 1px solid black; */
+    box-shadow: 3px 3px 4px black, 3px 3px 4px yellowgreen;
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 0.5;
+
+
+}
+
+.small-box h3 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+
+}
+
+.small-box p {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+  
+}
+
+.small-box h4 {
+    margin-left: 15px;
+    color: green;
+   
+}
+
+table {
+
+    width: 50%;
+    margin-left: 130px;
+    margin-top: 10px;
+    text-align: center;
+    opacity: 0.5;
+
+
+}
+
+th {
+    font-size: 25px;
+    border-bottom: 2px solid black;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+td {
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+
+/* ......................section eight.............. */
+#eight {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/pstri6.jpg);
+    position: relative;
+
+
+
+}
+
+
+
+#eight h1 {
+    font-size: 60px;
+    margin-left: 350px;
+    margin-top: 100px;
+    color: white;
+    font-weight: 800;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#eight input {
+    width: 300px;
+    padding: 10px 30px;
+    left: 390px;
+    top: 230px;
+    position: absolute;
+    border: 2px solid aquamarine;
+    border-radius: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    color: white;
+    font-style: normal;
+
+
+}
+
+#eight button {
+    font-size: 20px;
+    margin-top: 90px;
+    margin-left: 730px;
+    padding: 13px 35px;
+    border-radius: 30px;
+    background-color: rgb(4, 224, 150);
+    
+    font-weight: 400px;
+    color: white;
+
+}
+
+#eight button:hover {
+    background-color: rgb(66, 246, 186);
+
+}
+
+#eight a {
+    font-size: 16px;
+    margin-left: 560px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-bottom: 700px;
+    position: absolute;
+    top: 350px;
+}
+
+.social-icon {
+    font-size: 17px;
+    border-radius: 50px;
+    margin-right: 30px;
+    color: white;
+    top: 430px;
+    margin-left: 530px;
+    position: absolute;
+    display: flex;
+
+}
+
+.social-icon i {
+    margin-right: 30px;
+    border: 1px solid lightgray;
+    padding: 12px;
+    border-radius: 50%;
+
+}
+
+.social-icon i:hover {
+    cursor: pointer;
+    border: 2px solid aqua;
+    color: whitesmoke;
+}
+
+/* ...............footer............ */
+
+.footer {
+    background-color: #2a2a2a;
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+}
+
+ul {
+
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.logo2 {
+
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 200px;
+
+}
+
+.logo2 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+ul li {
+    margin-left: 10px;
+    padding: 10px;
+
+
+}
+
+small {
+    color: white;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.logo2 p {
+    font-size: 17px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+}
